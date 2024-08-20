@@ -1,0 +1,44 @@
+.centerGrid3-2{
+	display: grid;
+	grid-template-areas: 
+	"prod1 prod2 prod3"
+	"prod4 prod5 prod6"
+	;
+	article#prod1{grid-area: prod1;}
+	article#prod2{grid-area: prod2;}
+	article#prod3{grid-area: prod3;}
+	article#prod4{grid-area: prod4;}
+	article#prod5{grid-area: prod5;}
+	article#prod6{grid-area: prod6;}
+}
+
+.flex-row-center{
+	display:flex;
+	flex-direction:row;
+    justify-content: center;
+}
+.flex-column-center{
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+//Nav propiedades colors
+.navbar-nav{color:$fontColor;}
+.navbar-nav{color: $fontColor;}
+.navbar-brand{color: $fontColor;}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color: $fontColor;}
+.nav-link{color: $fontColor;}
+.nav-link.disabled, .nav-link:disabled{color: $fontColor;}
+.navbar{padding: 0px;}
+.centerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgView{
+    height: 275px;
+    width: 225px;
+    object-fit: cover;
+}

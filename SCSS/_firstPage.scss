@@ -1,61 +1,65 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: aqua;
-    header{
+
+
+body {
+    background-color: black;
+    header {
         background-color: $firstColor;
-        nav{
+
+        nav {
             width: 40%;
-            div{
+
+            div {
                 background-color: $firstColor;
-                div{
+
+                div {
                     width: 100%;
                 }
             }
         }
-        article{
+
+        article {
             height: 100px;
-            img{
+
+            img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
         }
     }
-    main{
-        background-color: #ffffff;
-        section{
-            div.centerFlex{
+
+    main {
+        background-color: $firstColor;
+
+        section {
+            margin: 0px 10% 0px 10%;
+            padding: 3% 0px 3% 0px;
+            background-color: aliceblue;
+
+            div.centerFlex {
                 justify-content: space-evenly;
             }
         }
-        section.imgContainer{
-            height: 300px;
-            width: 300px;
+
+        section.imgFirst {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 600px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
-    footer{
+
+    footer {
         background-color: $firstColor;
     }
-}
-//Nav propiedades colors
-.navbar-nav{color:$fontColor;}
-.navbar-nav{color: $fontColor;}
-.navbar-brand{color: $fontColor;}
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color: $fontColor;}
-.nav-link{color: $fontColor;}
-.nav-link.disabled, .nav-link:disabled{color: $fontColor;}
-.navbar{padding: 0px;}
-.centerFlex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.imgContainer{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
