@@ -84,9 +84,6 @@ const filtro = "BATERIA";
 const filtros = filtradoPorNombre(productos,filtro);
 console.log("Los elementos filtrados son:");
 listarProductos(filtros);
-debugger
-// Me quedo una duda de el por que la funcion .toUpperCase() en la linea 18 y 39. 
-//Reitero dos veces un promt en el que podria usarse uno solo
-//pero al ejecutarse esa funcion segun mi navegador me da error, si dispongo de ambos promt, al menos uno funciona, pero solo pasa la primera vez que se ejecuta este problema, ya que, cuando el bucle se repite, se ejecutan los dos con normalidad.
-//Agradeceria la atención y explicación en ese punto, ya que aclararía mis dudas
-//Muchas gracias! Atte Gonzalo
+
+let target = document.getElementById(prod1);
+console.log(target.innerHTML);
